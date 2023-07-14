@@ -1,0 +1,199 @@
+# Ukrainian translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-07-13 08:56+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: main.py:52 main.py:74 main.py:190
+msgid "Cuisine"
+msgstr "Кухня"
+
+#: main.py:53 main.py:98 main.py:190
+msgid "Calories"
+msgstr "Калорії"
+
+#: main.py:54 main.py:116 main.py:191
+msgid "Product list"
+msgstr "Список продуктів"
+
+#: main.py:55 main.py:133 main.py:191
+msgid "Dish"
+msgstr "Страва"
+
+#: main.py:56 main.py:150
+msgid "Get recipe"
+msgstr "Отримати рецепт"
+
+#: main.py:57 main.py:180
+msgid "Clear selected"
+msgstr "Очистити обране"
+
+#: main.py:58
+msgid "Hello, it's your cooking bot!"
+msgstr "Привіт, це ваш кулінарний асистент!"
+
+#: main.py:64
+msgid ""
+"1. Specify your preferences such as cuisine, calorie range, ingredients, "
+"or dish name.\n"
+"2. Click the \"Get Recipe\" button to generate your customized recipe.\n"
+"3. Wait a moment while Bot works its magic.\n"
+"4. Voila! Your personalized recipe is ready for you to explore and enjoy."
+"\n"
+"5. Skip specifying parameters and let Bot surprise you with a random "
+"recipe."
+msgstr ""
+"1. Вкажіть свої уподобання, такі як "
+"кухня, калорійність, інгредієнти, або назва"
+" страви.\n"
+"2. Натисніть кнопку \"Отримати рецепт\", щоб створити свій рецепт.\n"
+"3. Зачекайте трохи, поки Bot працює.\n"
+"4. Вуаля! Ваш персональний рецепт готовий, вивчайте та насолоджуйтесь\n"
+"5. Не вказуйте параметри і дозвольте "
+"боту здивувати вас випадковим рецептом."
+
+#: main.py:83
+msgid "Select the cuisine type:"
+msgstr "Оберіть тип кухні:"
+
+#: main.py:101
+msgid "Enter the number of kCal:"
+msgstr "Введіть кількість kCal:"
+
+#: main.py:118
+msgid "Enter a set of products:"
+msgstr "Введіть набір продуктів:"
+
+#: main.py:135
+msgid "Enter the name of the dish:"
+msgstr "Введіть назву страви:"
+
+#: main.py:153
+msgid "Please wait!"
+msgstr "Будь ласка, зачекайте!"
+
+#: main.py:158
+msgid "Processing the order!"
+msgstr "Опрацьовуємо замовлення!"
+
+#: main.py:161
+msgid "It's coming up! Wait..."
+msgstr "Вже скоро! Зачекайте..."
+
+#: main.py:173
+msgid "Ops! Something wrong! Press /start"
+msgstr "Щось не так! Натисніть /start."
+
+#: main.py:184
+msgid "Cleared"
+msgstr "Очищено"
+
+#: main.py:190
+msgid "Selected dish recommendations!"
+msgstr "Обрані рекомендації!"
+
+#~ msgid "Cleanup was successful"
+#~ msgstr "Очищення проведено успішно"
+
+#~ msgid "Cuisine"
+#~ msgstr "Кухня"
+
+#~ msgid "Calories"
+#~ msgstr "Калорії"
+
+#~ msgid "Product list"
+#~ msgstr "Список продуктів"
+
+#~ msgid "Dish"
+#~ msgstr "Страва"
+
+#~ msgid "Get recipe"
+#~ msgstr "Отримати рецепт"
+
+#~ msgid "Clear selected"
+#~ msgstr "Очистити обране"
+
+# Ukrainian translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#~ msgid "Hello, it's your cooking bot!"
+#~ msgstr "Привіт, це твій кулінарний бот!"
+
+#~ msgid ""
+#~ "1. Specify your preferences such as "
+#~ "cuisine, calorie range, ingredients, or "
+#~ "dish name.\n"
+#~ "2. Click the \"Get Recipe\" button "
+#~ "to generate your customized recipe.\n"
+#~ "3. Wait a moment while Bot works its magic.\n"
+#~ "4. Voila! Your personalized recipe is"
+#~ " ready for you to explore and "
+#~ "enjoy.\n"
+#~ "5. Skip specifying parameters and let"
+#~ " Bot surprise you with a random "
+#~ "recipe."
+#~ msgstr ""
+#~ "1. Вкажіть свої уподобання, такі як "
+#~ "кухня, калорійність, інгредієнти, або назва"
+#~ " страви.\n"
+#~ "2. Натисніть кнопку \"Отримати рецепт\", щоб створити свій рецепт.\n"
+#~ "3. Зачекайте трохи, поки Bot працює.\n"
+#~ "4. Вуаля! Ваш персональний рецепт готовий, вивчайте та насолоджуйтесь\n"
+#~ "5. Не вказуйте параметри і дозвольте "
+#~ "боту здивувати вас випадковим рецептом."
+
+#~ msgid "Select the cuisine type:"
+#~ msgstr "Оберіть тип кухні:"
+
+#~ msgid "Enter the number of kCal:"
+#~ msgstr "Введіть кількість калорій (ккал):"
+
+#~ msgid "Enter a set of products:"
+#~ msgstr "Введіть набір продуктів:"
+
+#~ msgid "Enter the name of the dish:"
+#~ msgstr "Введіть назву страви:"
+
+#~ msgid "Please wait!"
+#~ msgstr "Зачекайте, будь ласка!"
+
+#~ msgid "Ops! Something wrong! Press /start"
+#~ msgstr ""
+#~ "Ой! Щось пішло не так!Project-Id-Version: PROJECT VERSION\n"
+#~ "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+#~ "POT-Creation-Date: 2023-07-04 19:34+0300\n"
+#~ "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+#~ "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+#~ "Language: uk\n"
+#~ "Language-Team: uk <LL@li.org>\n"
+#~ "Plural-Forms: nplurals=3; plural=(n%10==1 &&"
+#~ " n%100!=11 ? 0 : n%10>=2 && "
+#~ "n%10<=4 && (n%100<10 || n%100>=20) ? "
+#~ "1 : 2)\n"
+#~ "MIME-Version: 1.0\n"
+#~ "Content-Type: text/plain; charset=utf-8\n"
+#~ "Content-Transfer-Encoding: 8bit\n"
+#~ "Generated-By: Babel 2.9.1\n"
+
+#~ msgid "Cleared"
+#~ msgstr "Очищено"
+
+#~ msgid "Selected dish recommendations!"
+#~ msgstr "Обрані рекомендації страви"
+

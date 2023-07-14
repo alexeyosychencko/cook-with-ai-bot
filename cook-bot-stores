@@ -1,0 +1,41 @@
+{
+    "474925877": {
+        "474925877": {
+            "state": "Form:free",
+            "data": {
+                "cuisine": "mexican",
+                "calories": "random",
+                "productList": "random",
+                "dish": "random",
+                "lang": "uk"
+            },
+            "bucket": {}
+        }
+    },
+    "377573052": {
+        "377573052": {
+            "state": "Form:free",
+            "data": {
+                "cuisine": "chinese",
+                "calories": "random",
+                "productList": "\u041c\u043e\u0440\u0430\u0432\u0430, \u0441\u043e\u0435\u0432\u044b\u0439 \u0441\u043e\u0443\u0441 \u043a\u0443\u0440\u043a\u0430",
+                "dish": "random",
+                "lang": "uk"
+            },
+            "bucket": {}
+        }
+    },
+    "67780509": {
+        "67780509": {
+            "state": "Form:dish",
+            "data": {
+                "cuisine": "random",
+                "calories": "random",
+                "productList": "\u041b\u043e\u0441\u043e\u0441\u044c \u043f\u0435\u0447\u0435\u043d\u0438\u0439, \u043e\u0433\u0456\u0440\u043a\u0438, \u043f\u043e\u043c\u0456\u0434\u043e\u0440\u0438, \u0441\u0443\u0445\u0430\u0440\u0456, \u0445\u043b\u0456\u0431,",
+                "dish": "random",
+                "lang": "ua"
+            },
+            "bucket": {}
+        }
+    }
+}

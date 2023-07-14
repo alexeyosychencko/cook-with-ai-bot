@@ -1,0 +1,99 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-07-13 08:56+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: main.py:52 main.py:74 main.py:190
+msgid "Cuisine"
+msgstr ""
+
+#: main.py:53 main.py:98 main.py:190
+msgid "Calories"
+msgstr ""
+
+#: main.py:54 main.py:116 main.py:191
+msgid "Product list"
+msgstr ""
+
+#: main.py:55 main.py:133 main.py:191
+msgid "Dish"
+msgstr ""
+
+#: main.py:56 main.py:150
+msgid "Get recipe"
+msgstr ""
+
+#: main.py:57 main.py:180
+msgid "Clear selected"
+msgstr ""
+
+#: main.py:58
+msgid "Hello, it's your cooking bot!"
+msgstr ""
+
+#: main.py:64
+msgid ""
+"1. Specify your preferences such as cuisine, calorie range, ingredients, "
+"or dish name.\n"
+"2. Click the \"Get Recipe\" button to generate your customized recipe.\n"
+"3. Wait a moment while Bot works its magic.\n"
+"4. Voila! Your personalized recipe is ready for you to explore and enjoy."
+"\n"
+"5. Skip specifying parameters and let Bot surprise you with a random "
+"recipe."
+msgstr ""
+
+#: main.py:83
+msgid "Select the cuisine type:"
+msgstr ""
+
+#: main.py:101
+msgid "Enter the number of kCal:"
+msgstr ""
+
+#: main.py:118
+msgid "Enter a set of products:"
+msgstr ""
+
+#: main.py:135
+msgid "Enter the name of the dish:"
+msgstr ""
+
+#: main.py:153
+msgid "Please wait!"
+msgstr ""
+
+#: main.py:158
+msgid "Processing the order!"
+msgstr ""
+
+#: main.py:161
+msgid "It's coming up! Wait..."
+msgstr ""
+
+#: main.py:173
+msgid "Ops! Something wrong! Press /start"
+msgstr ""
+
+#: main.py:184
+msgid "Cleared"
+msgstr ""
+
+#: main.py:190
+msgid "Selected dish recommendations!"
+msgstr ""
+
