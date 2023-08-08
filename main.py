@@ -205,7 +205,7 @@ async def get_common_request_ai(user_id):
         return f"Generate creative cooking recipe" \
                f"Keep the recipe short and without auxiliary sentences. Result language: {lang}"
 
-    request = f"Generate creative cooking recipe: " \
+    request = f"Find an existing one or invent one cooking recipe: " \
               f"products: {saved['productList']}. cuisine {saved['cuisine']}. " \
               f"calories: {saved['calories']}kcal. dish: {saved['dish']}" \
               f"Provide clear and straightforward steps with minimal wording while ensuring " \
@@ -216,7 +216,7 @@ async def get_common_request_ai(user_id):
 
 def generate_response(text):
     chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo",
-                                                   messages=[{"role": "user", "content": text}])
+                                                   messages=[{"role": "chef", "content": text}])
     if chat_completion and chat_completion.choices:
         return chat_completion.choices[0].message.content
     else:
