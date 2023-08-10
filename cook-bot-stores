@@ -1,15 +1,1 @@
-{
-    "474925877": {
-        "474925877": {
-            "state": "Form:free",
-            "data": {
-                "cuisine": "random",
-                "calories": "random",
-                "productList": "random",
-                "dish": "random",
-                "lang": "en"
-            },
-            "bucket": {}
-        }
-    }
-}
+{}
