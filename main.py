@@ -216,7 +216,7 @@ async def get_common_request_ai(user_id):
 
 def generate_response(text):
     chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo",
-                                                   messages=[{"role": "assistant", "content": text}], timeout=20)
+                                                   messages=[{"role": "assistant", "content": text}])
     if chat_completion and chat_completion.choices:
         return chat_completion.choices[0].message.content
     else:
