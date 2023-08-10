@@ -154,28 +154,29 @@ async def handle_dish_input(message: types.Message):
 async def button_get_recipe_handler(message: types.Message):
     await Form.process.set()
     await message.answer(_('Please wait!'))
+    await bot.send_chat_action(message.chat.id, 'typing')
 
-    async def delay_msgs():
-        await bot.send_chat_action(message.chat.id, 'typing')
-        await asyncio.sleep(5)
-        await message.answer(_('Processing the order!'))
-        await bot.send_chat_action(message.chat.id, 'typing')
-        await asyncio.sleep(10)
-        await message.answer(_("It's coming up! Wait..."))
-        await bot.send_chat_action(message.chat.id, 'typing')
-    task = asyncio.create_task(delay_msgs())
+    # async def delay_msgs():
+    #     await bot.send_chat_action(message.chat.id, 'typing')
+    #     await asyncio.sleep(5)
+    #     await message.answer(_('Processing the order!'))
+    #     await bot.send_chat_action(message.chat.id, 'typing')
+    #     await asyncio.sleep(10)
+    #     await message.answer(_("It's coming up! Wait..."))
+    #     await bot.send_chat_action(message.chat.id, 'typing')
+    # task = asyncio.create_task(delay_msgs())
 
     request = await get_common_request_ai(message.from_user.id)
 
-    def res_task():
-        return generate_response(request)
+    # def res_task():
+    #     return generate_response(request)
 
-    response = await asyncio.gather(asyncio.to_thread(res_task), task)
-    task.cancel()
+    response = generate_response(request)
+    # task.cancel()
     if not response:
         await message.answer(_('Ops! Something wrong! Press /start'))
     else:
-        await message.answer(response[0])
+        await message.answer(response)
     await Form.free.set()
 
 
