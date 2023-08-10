@@ -3,11 +3,11 @@
         "474925877": {
             "state": "Form:free",
             "data": {
-                "cuisine": "mexican",
+                "cuisine": "random",
                 "calories": "random",
                 "productList": "random",
                 "dish": "random",
-                "lang": "uk"
+                "lang": "en"
             },
             "bucket": {}
         }
